@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/allure-reporter": "^9.13.0",
+    "@wdio/cli": "^9.13.0",
+    "chai": "^5.2.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.13.0",
+    "@wdio/mocha-framework": "^9.13.0",
+    "@wdio/spec-reporter": "^9.13.0"
+  }
+}
